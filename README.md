@@ -3,8 +3,7 @@
 ## Projekt: Przegląd bibliotek GUI w Pythonie
 
 W ramach laboratorium nr 5 zainteresowalem sie tworzeniem graficznych interfejsow uzytkownika (GUI). Biblioteki GUI są szczególnie przydatne przy tworzeniu aplikacji okienkowych, umożliwiających interakcję użytkownika z programem bez użycia terminala.
-Na potrzeby tego zadania przygotowalem aplikacje do konwersji walut w jezyku Python. 
-Liste dostepnych walut oraz je kursy "exchange-api" uzytkownika githuba "fawazahmed0"
+Na potrzeby tego zadania przygotowalem aplikacje do konwersji walut w jezyku Python. API do konwersji walut oraz pobierania kursów zostało zaczerpnięte z GitHuba: https://github.com/fawazahmed0/exchange-api
 Uzylem dwoch bibliotek do stworzenia GUI, ktore maja prawie identyczny syntax ale mimo to roznice w wygladzie mozna zauwazyc golym okiem.
 
 - `tkinter` – standardowa biblioteka GUI w Pythonie
@@ -31,9 +30,7 @@ W folderze `examples/` znajduja sie dwa programy do wymiany walut obie wykorzyst
 tkinter to standardowa biblioteka GUI dostępna we wszystkich instalacjach Pythona. Umożliwia tworzenie okien, przycisków, pól tekstowych i innych podstawowych komponentów GUI.
 
 **Przykład użycia:**
-
-
-
+![image](https://github.com/user-attachments/assets/e40d3ff8-ef10-4ceb-ab8c-631ab0e6ebaa)
 **Zalety:**
 - Wbudowana w Pythona (brak potrzeby instalacji)
 - Dobrze udokumentowana
@@ -53,9 +50,7 @@ https://docs.python.org/3/library/tkinter.html
 customtkinter to nowoczesna biblioteka oparta na tkinter, która umożliwia tworzenie atrakcyjnych interfejsów użytkownika, wspierających motywy (jasny/ciemny) i styl zgodny z nowoczesnymi trendami.
 
 **Przykład użycia:**
-
-Prosty formularz z polem tekstowym i przyciskiem – plik: `examples/customtkinter_example.py`
-
+![image](https://github.com/user-attachments/assets/454b3586-6afd-4ccf-adfc-d4414c2e1246)
 **Zalety:**
 - Nowoczesny wygląd
 - Tryb ciemny i jasny
@@ -75,5 +70,5 @@ https://github.com/TomSchimansky/CustomTkinter
 
 ## Autor
 
-Imię i nazwisko: [TU WPISZ SWOJE IMIĘ I NAZWISKO]  
-Grupa: [TU WPISZ NUMER GRUPY]
+Imię i nazwisko: Piotr Artym
+Nr albumu: 122212
