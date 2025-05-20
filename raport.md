@@ -1,4 +1,4 @@
-# raport.md
+# link do githuba: https://github.com/kingslayer335/zadanie_5
 ## Autor
 
 Imię i nazwisko: Piotr Artym  
