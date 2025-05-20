@@ -22,8 +22,9 @@ W folderze `examples/` znajduja sie dwa programy do wymiany walut obie wykorzyst
 ```
 ├── examples
 │   ├── tkinter_example.py   # Wykorzystuje biblioteke tkinter
-│   └── customtinker_example.py        # wykorzystuje biblioteke CustomKinter
-├── raport.md                           # Raport opisujący biblioteki
+│   ├── customtinker_example.py        # wykorzystuje biblioteke CustomKinter
+|   └── currencyList.py                        # ta klasa wykonuje API Call, zwraca liste z danymi walut
+├── raport.md                                           # Raport opisujący biblioteki
 
 ```
 
