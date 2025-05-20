@@ -51,6 +51,11 @@ def reverse_currencies():
     from_var.set(to_value)
     to_var.set(from_value)
 
+# funkcja dajaca animacje klikniecia prawym przyciskiem bo standardowo nie bylo takiej animacji
+def simulate_right_click(button, command):
+    button.config(relief="sunken")
+    button.after(100, lambda: button.config(relief="raised"))
+    button.after(100, command)
 
 root = tk.Tk()
 root.title("Currency Converter")
@@ -65,11 +70,6 @@ left_frame.pack(side="left", fill="y", padx=10, pady=10)
 center_frame.pack(side="left", expand=True, fill="both")
 right_frame.pack(side="right", fill="y", padx=10, pady=10)
 
-# funkcja dajaca animacje klikniecia prawym przyciskiem bo standardowo nie bylo takiej animacji
-def simulate_right_click(button, command):
-    button.config(relief="sunken")
-    button.after(100, lambda: button.config(relief="raised"))
-    button.after(100, command)
     
 # Popularne kryptowaluty
 tk.Label(left_frame, text="Popular Cryptocurrencies", font=("Arial", 12, "bold")).pack(pady=5)
