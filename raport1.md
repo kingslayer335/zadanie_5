@@ -4,7 +4,8 @@
 
 W ramach laboratorium nr 5 zainteresowalem sie tworzeniem graficznych interfejsow uzytkownika (GUI).  
 Biblioteki GUI są szczególnie przydatne przy tworzeniu aplikacji okienkowych, umożliwiających interakcję użytkownika z programem bez użycia terminala.  
-Na potrzeby tego zadania przygotowalem aplikacje do konwersji walut w jezyku Python. API do konwersji walut oraz pobierania kursów zostało zaczerpnięte z GitHuba: https://github.com/fawazahmed0/exchange-api  
+Na potrzeby tego zadania przygotowalem aplikacje do konwersji walut w jezyku Python.  
+API do konwersji walut oraz pobierania kursów zostało zaczerpnięte z GitHuba: https://github.com/fawazahmed0/exchange-api  
 Uzylem dwoch bibliotek do stworzenia GUI, ktore maja prawie identyczny syntax ale mimo to roznice w wygladzie mozna zauwazyc golym okiem.  
 
 - `tkinter` – standardowa biblioteka GUI w Pythonie
@@ -19,7 +20,7 @@ W folderze `examples/` znajduja sie dwa programy do wymiany walut obie wykorzyst
 │   ├── tkinter_example.py   # Wykorzystuje biblioteke tkinter
 │   └── customtinker_example.py        # wykorzystuje biblioteke CustomKinter
 ├── raport.md                           # Raport opisujący biblioteki
-├── README.md                           # Niniejszy plik
+
 ```
 
 ## Opis bibliotek
