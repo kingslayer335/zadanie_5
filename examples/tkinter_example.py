@@ -24,8 +24,8 @@ def currency_exchange():
         value = data[from_currency][to_currency]
         
         result = float(value) * float(amount)
-        result_label.config(text=f"1 {from_currency.upper()} = {value} {to_currency.upper()}")
-        result_label2.config(text=f"{amount} {from_currency.upper()} = {result} {to_currency.upper()}")
+        result_label.config(text=f"1 {from_currency.upper()} = {value:.8f} {to_currency.upper()}")
+        result_label2.config(text=f"{amount} {from_currency.upper()} = {result:.8f} {to_currency.upper()}")
     except Exception as e:
         result_label.config(text="Error fetching conversion.")
         result_label2.config(text=str(e))
