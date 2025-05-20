@@ -19,4 +19,3 @@ class CurrencyList:
         return None
     def get_pairs(self):
         return self.formatted_pairs
-    
