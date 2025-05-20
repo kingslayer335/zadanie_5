@@ -1,3 +1,5 @@
+#link do githuba: https://github.com/kingslayer335/zadanie_5
+
 import requests
 class CurrencyList:
     def __init__(self, url):

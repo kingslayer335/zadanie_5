@@ -1,3 +1,4 @@
+#link do githuba: https://github.com/kingslayer335/zadanie_5
 import customtkinter as ctk
 from currencyList import CurrencyList
 import requests
