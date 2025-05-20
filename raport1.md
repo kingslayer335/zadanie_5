@@ -30,7 +30,9 @@ W folderze `examples/` znajduja sie dwa programy do wymiany walut obie wykorzyst
 tkinter to standardowa biblioteka GUI dostępna we wszystkich instalacjach Pythona. Umożliwia tworzenie okien, przycisków, pól tekstowych i innych podstawowych komponentów GUI.
 
 **Przykład użycia:**
-![image](https://github.com/user-attachments/assets/e40d3ff8-ef10-4ceb-ab8c-631ab0e6ebaa)
+
+# ![image](https://github.com/user-attachments/assets/e40d3ff8-ef10-4ceb-ab8c-631ab0e6ebaa)
+
 **Zalety:**
 - Wbudowana w Pythona (brak potrzeby instalacji)
 - Dobrze udokumentowana
@@ -50,7 +52,9 @@ https://docs.python.org/3/library/tkinter.html
 customtkinter to nowoczesna biblioteka oparta na tkinter, która umożliwia tworzenie atrakcyjnych interfejsów użytkownika, wspierających motywy (jasny/ciemny) i styl zgodny z nowoczesnymi trendami.
 
 **Przykład użycia:**
-![image](https://github.com/user-attachments/assets/454b3586-6afd-4ccf-adfc-d4414c2e1246)
+
+# ![image](https://github.com/user-attachments/assets/454b3586-6afd-4ccf-adfc-d4414c2e1246)
+
 **Zalety:**
 - Nowoczesny wygląd
 - Tryb ciemny i jasny
