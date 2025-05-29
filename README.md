@@ -74,6 +74,15 @@ customtkinter to nowoczesna biblioteka oparta na tkinter, która umożliwia twor
 **Instalacja:**
 ```bash
 pip install customtkinter
+
+-jeżeli nie działa można spròbować
+
+pip install customtkinter --upgrade
+
+-lub
+
+python3 -m pip install --upgrade customtkinter
+
 ```
 
 **Dokumentacja:**
