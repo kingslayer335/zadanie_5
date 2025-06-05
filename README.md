@@ -88,6 +88,8 @@ customtkinter to nowoczesna biblioteka oparta na tkinter, która umożliwia twor
 
 **Instalacja:**
 ```bash
+pip install requests
+
 pip install customtkinter
 
 -jeżeli nie działa można spròbować
