@@ -49,6 +49,21 @@ tkinter to standardowa biblioteka GUI dostępna we wszystkich instalacjach Pytho
 - Przestarzały wygląd
 - Brak natywnego wsparcia dla ciemnego motywu
 
+**Wersja:**
+
+Programy dzialaja na wersji pythona
+```bash
+python 3.13.2
+```
+
+**Instalacja:**
+```bash
+-do dzialania api potrzebna jest biblioteka requests
+
+pip install requests
+
+```
+
 **Dokumentacja:**
 https://docs.python.org/3/library/tkinter.html
 
@@ -74,6 +89,15 @@ customtkinter to nowoczesna biblioteka oparta na tkinter, która umożliwia twor
 **Instalacja:**
 ```bash
 pip install customtkinter
+
+-jeżeli nie działa można spròbować
+
+pip install customtkinter --upgrade
+
+-lub
+
+python3 -m pip install --upgrade customtkinter
+
 ```
 
 **Dokumentacja:**
